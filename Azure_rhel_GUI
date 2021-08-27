@@ -1,0 +1,12 @@
+#!/bin/bash
+# ############### RHEL8 ###############
+
+ 
+# update to  newest versions of packages and their dependencies.
+sudo yum update -y
+
+# List the available groups
+# sudo yum group list
+
+# Install the package "Server with GUI" containing the gnome packages
+sudo yum groupinstall "Server with GUI" -y
